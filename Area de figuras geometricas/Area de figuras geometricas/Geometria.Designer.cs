@@ -405,17 +405,19 @@
             // txtresultadoarea
             // 
             this.txtresultadoarea.AutoSize = true;
+            this.txtresultadoarea.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtresultadoarea.Location = new System.Drawing.Point(137, 40);
             this.txtresultadoarea.Name = "txtresultadoarea";
-            this.txtresultadoarea.Size = new System.Drawing.Size(0, 13);
+            this.txtresultadoarea.Size = new System.Drawing.Size(0, 18);
             this.txtresultadoarea.TabIndex = 0;
             // 
             // txtdetallearea
             // 
             this.txtdetallearea.AutoSize = true;
-            this.txtdetallearea.Location = new System.Drawing.Point(221, 234);
+            this.txtdetallearea.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtdetallearea.Location = new System.Drawing.Point(87, 234);
             this.txtdetallearea.Name = "txtdetallearea";
-            this.txtdetallearea.Size = new System.Drawing.Size(0, 13);
+            this.txtdetallearea.Size = new System.Drawing.Size(0, 18);
             this.txtdetallearea.TabIndex = 2;
             // 
             // Geometria
