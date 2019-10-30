@@ -59,64 +59,48 @@ namespace Area_de_figuras_geometricas
             }
         }
 
-        private void txt_h_TextChanged(object sender, EventArgs e)
+        private void groupBox3_Enter(object sender, EventArgs e)
         {
 
-            try
-            {
-                double n = Convert.ToDouble(txt_h.Text);
-            }
-            catch (Exception)
-            {
-
-                txt_h.Text = "";
-            }
         }
 
-        private void txt_a_TextChanged(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
-            try
-            {
-                double n = Convert.ToDouble(txt_a.Text);
-            }
-            catch (Exception)
-            {
-
-                txt_a.Text = "";
-            }
         }
 
-        private void txt_b_TextChanged(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
 
-            try
-            {
-                double n = Convert.ToDouble(txt_b.Text);
-            }
-            catch (Exception)
-            {
-
-                txt_b.Text = "";
-            }
         }
 
-        private void btn_calcular_trapecio_Click(object sender, EventArgs e)
+        private void btncalcular_Click(object sender, EventArgs e)
         {
-            String h = txt_h.Text;
-            String a = txt_a.Text;
-            String b = txt_b.Text;
-            if (!h.Equals("")&& !a.Equals("")&& !b.Equals(""))
+            String valor1 = txtbase.Text;
+            String valor2 = txtaltura.Text;
+
+            if (valor1.Equals("")|| valor2.Equals(""))
             {
-                Trapecio tra = new Trapecio("Trapecio",Convert.ToDouble(h),Convert.ToDouble(a),Convert.ToDouble(b));
-                label_desc.Text = tra.ToString();
-                txt_result_tra.Text = Math.Round(tra.CalcularArea(), 3) + " m^2";
+                MessageBox.Show("ingrese un valor correcto");
             }
             else
             {
-                MessageBox.Show("Ingrese valores correctamente");
+
+                Romboide oc = new Romboide("Romboide", Convert.ToDouble(valor1), Convert.ToDouble(valor2));
+                txtdetallearea.Text = oc.ToString();
+                txtresultadoarea.Text = ""+oc.CalcularArea();
+
             }
-            
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }
