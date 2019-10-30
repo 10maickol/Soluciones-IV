@@ -58,5 +58,10 @@ namespace Area_de_figuras_geometricas
                 txt_valor.Text = "";
             }
         }
+
+        private void btn_trapecio_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
