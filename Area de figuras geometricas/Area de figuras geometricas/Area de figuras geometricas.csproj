@@ -46,38 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Area_del_octogono.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Area_del_octogono.Designer.cs">
-      <DependentUpon>Area_del_octogono.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Area_del_romboide.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Area_del_romboide.Designer.cs">
-      <DependentUpon>Area_del_romboide.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Area_del_trapecio.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Area_del_trapecio.Designer.cs">
-      <DependentUpon>Area_del_trapecio.cs</DependentUpon>
-    </Compile>
+    <Compile Include="FiguraGeometrica.cs" />
     <Compile Include="Geometria.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Geometria.Designer.cs">
       <DependentUpon>Geometria.cs</DependentUpon>
     </Compile>
+    <Compile Include="Octogono.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Area_del_octogono.resx">
-      <DependentUpon>Area_del_octogono.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Area_del_romboide.resx">
-      <DependentUpon>Area_del_romboide.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Geometria.resx">
       <DependentUpon>Geometria.cs</DependentUpon>
     </EmbeddedResource>
