@@ -61,6 +61,17 @@ namespace Area_de_figuras_geometricas
 
         private void btn_trapecio_Click(object sender, EventArgs e)
         {
+            String bmenor = txt_bmenor.Text;
+            String bmayor = txt_bmayor.Text;
+            String altura = txt_altura.Text;
+
+            Trapecio tr = new Trapecio("Trapecio", Convert.ToDouble(bmenor), Convert.ToDouble(bmayor), Convert.ToDouble(altura));
+            txt_mensaje.Text = tr.ToString();
+            txt_rtrapecio.Text = tr.CalcularArea()+"";
+        }
+
+        private void rtrapecio_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }

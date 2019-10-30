@@ -48,6 +48,10 @@
             this.label_titile = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.btn_trapecio = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -57,12 +61,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txt_bmenor = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.rtrapecio = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.rtrapecio = new System.Windows.Forms.Panel();
+            this.txt_mensaje = new System.Windows.Forms.Label();
+            this.txt_rtrapecio = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -74,12 +76,12 @@
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            this.rtrapecio.SuspendLayout();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.groupBox3.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.rtrapecio.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -281,6 +283,45 @@
             this.tabPage3.Text = "Trapecio";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.rtrapecio);
+            this.groupBox4.Controls.Add(this.label5);
+            this.groupBox4.Controls.Add(this.panel6);
+            this.groupBox4.Location = new System.Drawing.Point(476, 5);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(430, 435);
+            this.groupBox4.TabIndex = 2;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Resultados";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(65, 202);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(0, 20);
+            this.label5.TabIndex = 1;
+            // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.pictureBox6);
+            this.panel6.Location = new System.Drawing.Point(22, 32);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(373, 173);
+            this.panel6.TabIndex = 0;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(43, 14);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(297, 148);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 0;
+            this.pictureBox6.TabStop = false;
+            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.btn_trapecio);
@@ -372,27 +413,6 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Ingrese base menor";
             // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.rtrapecio);
-            this.groupBox4.Controls.Add(this.label5);
-            this.groupBox4.Controls.Add(this.panel6);
-            this.groupBox4.Location = new System.Drawing.Point(476, 5);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(430, 435);
-            this.groupBox4.TabIndex = 2;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Resultados";
-            // 
-            // rtrapecio
-            // 
-            this.rtrapecio.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.rtrapecio.Controls.Add(this.label4);
-            this.rtrapecio.Location = new System.Drawing.Point(65, 236);
-            this.rtrapecio.Name = "rtrapecio";
-            this.rtrapecio.Size = new System.Drawing.Size(288, 100);
-            this.rtrapecio.TabIndex = 2;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -402,32 +422,35 @@
             this.label4.Size = new System.Drawing.Size(0, 36);
             this.label4.TabIndex = 0;
             // 
-            // label5
+            // rtrapecio
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(65, 202);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(0, 20);
-            this.label5.TabIndex = 1;
+            this.rtrapecio.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.rtrapecio.Controls.Add(this.txt_rtrapecio);
+            this.rtrapecio.Controls.Add(this.txt_mensaje);
+            this.rtrapecio.Controls.Add(this.label4);
+            this.rtrapecio.Location = new System.Drawing.Point(65, 236);
+            this.rtrapecio.Name = "rtrapecio";
+            this.rtrapecio.Size = new System.Drawing.Size(288, 100);
+            this.rtrapecio.TabIndex = 2;
+            this.rtrapecio.Paint += new System.Windows.Forms.PaintEventHandler(this.rtrapecio_Paint);
             // 
-            // panel6
+            // txt_mensaje
             // 
-            this.panel6.Controls.Add(this.pictureBox6);
-            this.panel6.Location = new System.Drawing.Point(22, 32);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(373, 173);
-            this.panel6.TabIndex = 0;
+            this.txt_mensaje.AutoSize = true;
+            this.txt_mensaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_mensaje.Location = new System.Drawing.Point(28, 12);
+            this.txt_mensaje.Name = "txt_mensaje";
+            this.txt_mensaje.Size = new System.Drawing.Size(0, 20);
+            this.txt_mensaje.TabIndex = 7;
             // 
-            // pictureBox6
+            // txt_rtrapecio
             // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(43, 14);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(297, 148);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 0;
-            this.pictureBox6.TabStop = false;
+            this.txt_rtrapecio.AutoSize = true;
+            this.txt_rtrapecio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_rtrapecio.Location = new System.Drawing.Point(75, 57);
+            this.txt_rtrapecio.Name = "txt_rtrapecio";
+            this.txt_rtrapecio.Size = new System.Drawing.Size(0, 20);
+            this.txt_rtrapecio.TabIndex = 7;
             // 
             // Geometria
             // 
@@ -449,15 +472,15 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.tabPage3.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
             this.rtrapecio.ResumeLayout(false);
             this.rtrapecio.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -493,10 +516,12 @@
         private System.Windows.Forms.TextBox txt_bmenor;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Panel rtrapecio;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Panel rtrapecio;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label txt_rtrapecio;
+        private System.Windows.Forms.Label txt_mensaje;
     }
 }
