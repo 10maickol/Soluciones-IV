@@ -23,5 +23,6 @@ namespace Area_de_figuras_geometricas
             area = Lado * altura;
             return area;
         }
+
     }
 }
