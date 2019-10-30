@@ -16,5 +16,10 @@ namespace Area_de_figuras_geometricas
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
