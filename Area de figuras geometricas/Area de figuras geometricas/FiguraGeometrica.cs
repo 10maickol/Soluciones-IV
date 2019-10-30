@@ -23,7 +23,7 @@ namespace Area_de_figuras_geometricas
 
         public override String ToString()
         {
-            return "Esta figura es un: "+ Nombre;
+            return "área calculada de un: "+ Nombre;
 
         }
 

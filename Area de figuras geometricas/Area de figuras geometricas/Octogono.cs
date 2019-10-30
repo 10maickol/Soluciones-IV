@@ -20,7 +20,16 @@ namespace Area_de_figuras_geometricas
 
         public override double CalcularArea()
         {
-            return 0;
+            double area = 0;
+            if (isRadio)
+            {
+                area = (2 * (Math.Sqrt(2)) * (Math.Pow(Radio, 2)));
+            }
+            else
+            {
+                area = (4.83*(Math.Pow(Lado,2)));
+            }
+            return area;
            
         }
     }

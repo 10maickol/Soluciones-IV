@@ -16,7 +16,7 @@ namespace Area_de_figuras_geometricas
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Area_del_trapecio());
+            Application.Run(new Geometria());
         }
     }
 }
