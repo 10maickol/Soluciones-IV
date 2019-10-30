@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Area_de_figuras_geometricas
 {
-    public partial class Form1 : Form
+    public partial class Area_del_trapecio : Form
     {
-        public Form1()
+        public Area_del_trapecio()
         {
             InitializeComponent();
         }

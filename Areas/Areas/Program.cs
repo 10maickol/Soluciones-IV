@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Area_de_figuras_geometricas
+namespace Areas
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace Area_de_figuras_geometricas
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Area_del_trapecio());
+            Application.Run(new Form1());
         }
     }
 }

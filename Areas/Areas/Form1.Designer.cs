@@ -1,4 +1,4 @@
-﻿namespace Area_de_figuras_geometricas
+﻿namespace Areas
 {
     partial class Form1
     {
