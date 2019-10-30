@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Area_del_octogono.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area_del_octogono.Designer.cs">
+      <DependentUpon>Area_del_octogono.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area_del_romboide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area_del_romboide.Designer.cs">
+      <DependentUpon>Area_del_romboide.cs</DependentUpon>
+    </Compile>
     <Compile Include="Area_del_trapecio.cs">
       <SubType>Form</SubType>
     </Compile>
