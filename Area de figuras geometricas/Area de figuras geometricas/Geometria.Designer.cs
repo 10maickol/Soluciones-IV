@@ -81,14 +81,10 @@
             this.txtbase = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.txt_a = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txt_b = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label_desc = new System.Windows.Forms.Label();
-            this.txt_result_tra = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.txtresultadoarea = new System.Windows.Forms.Label();
+            this.txtdetallearea = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -116,8 +112,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -360,16 +354,6 @@
             this.panel5.Size = new System.Drawing.Size(383, 119);
             this.panel5.TabIndex = 0;
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(185, 24);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(171, 60);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
-            // 
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
@@ -459,67 +443,26 @@
             this.tabPage3.Text = "Trapecio";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // pictureBox8
+            // pictureBox5
             // 
-            this.pictureBox8.Image = global::Area_de_figuras_geometricas.Properties.Resources.formula_trapecio;
-            this.pictureBox8.Location = new System.Drawing.Point(187, 35);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(161, 58);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 1;
-            this.pictureBox8.TabStop = false;
+            this.pictureBox5.Image = global::Area_de_figuras_geometricas.Properties.Resources.formula1;
+            this.pictureBox5.Location = new System.Drawing.Point(185, 24);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(171, 60);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 1;
+            this.pictureBox5.TabStop = false;
             // 
-            // pictureBox9
+            // panel6
             // 
-            this.pictureBox9.Image = global::Area_de_figuras_geometricas.Properties.Resources.trapecio;
-            this.pictureBox9.Location = new System.Drawing.Point(3, 7);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(158, 114);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 0;
-            this.pictureBox9.TabStop = false;
+            this.panel6.BackColor = System.Drawing.Color.Peru;
+            this.panel6.Controls.Add(this.txtresultadoarea);
+            this.panel6.Location = new System.Drawing.Point(84, 259);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(320, 98);
+            this.panel6.TabIndex = 1;
             // 
-            // txt_a
-            // 
-            this.txt_a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_a.Location = new System.Drawing.Point(11, 101);
-            this.txt_a.Name = "txt_a";
-            this.txt_a.Size = new System.Drawing.Size(356, 30);
-            this.txt_a.TabIndex = 4;
-            this.txt_a.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txt_a.TextChanged += new System.EventHandler(this.txt_a_TextChanged);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(11, 76);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(137, 20);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "ingrese la base a";
-            // 
-            // txt_b
-            // 
-            this.txt_b.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_b.Location = new System.Drawing.Point(12, 165);
-            this.txt_b.Name = "txt_b";
-            this.txt_b.Size = new System.Drawing.Size(356, 30);
-            this.txt_b.TabIndex = 6;
-            this.txt_b.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txt_b.TextChanged += new System.EventHandler(this.txt_b_TextChanged);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(12, 140);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(131, 20);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "ingese la base b";
-            // 
-            // label_desc
+            // txtresultadoarea
             // 
             this.txtresultadoarea.AutoSize = true;
             this.txtresultadoarea.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -528,7 +471,7 @@
             this.txtresultadoarea.Size = new System.Drawing.Size(0, 18);
             this.txtresultadoarea.TabIndex = 0;
             // 
-            // txt_result_tra
+            // txtdetallearea
             // 
             this.txtdetallearea.AutoSize = true;
             this.txtdetallearea.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
