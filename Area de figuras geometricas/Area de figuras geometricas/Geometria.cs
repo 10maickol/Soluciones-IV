@@ -88,7 +88,7 @@ namespace Area_de_figuras_geometricas
 
                 Romboide oc = new Romboide("Romboide", Convert.ToDouble(valor1), Convert.ToDouble(valor2));
                 txtdetallearea.Text = oc.ToString();
-                txtresultadoarea.Text = ""+oc.CalcularArea()+" m^2";
+                txtresultadoarea.Text = ""+oc.CalcularArea()+"m^2";
 
             }
         }
