@@ -69,6 +69,9 @@
     <EmbeddedResource Include="Area_del_octogono.resx">
       <DependentUpon>Area_del_octogono.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Area_del_romboide.resx">
+      <DependentUpon>Area_del_romboide.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
