@@ -324,7 +324,7 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::Area_de_figuras_geometricas.Properties.Resources.formula1;
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(185, 24);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(171, 60);
