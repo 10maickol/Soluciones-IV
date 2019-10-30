@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Geometria));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -47,7 +48,11 @@
             this.label_titile = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.txtdetallearea = new System.Windows.Forms.Label();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.txtresultadoarea = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.btncalcular = new System.Windows.Forms.Button();
@@ -57,10 +62,6 @@
             this.txtbase = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.txtresultadoarea = new System.Windows.Forms.Label();
-            this.txtdetallearea = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -73,12 +74,12 @@
             this.panel1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -285,6 +286,33 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Resultados";
             // 
+            // txtdetallearea
+            // 
+            this.txtdetallearea.AutoSize = true;
+            this.txtdetallearea.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtdetallearea.Location = new System.Drawing.Point(87, 234);
+            this.txtdetallearea.Name = "txtdetallearea";
+            this.txtdetallearea.Size = new System.Drawing.Size(0, 18);
+            this.txtdetallearea.TabIndex = 2;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.Peru;
+            this.panel6.Controls.Add(this.txtresultadoarea);
+            this.panel6.Location = new System.Drawing.Point(84, 259);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(320, 98);
+            this.panel6.TabIndex = 1;
+            // 
+            // txtresultadoarea
+            // 
+            this.txtresultadoarea.AutoSize = true;
+            this.txtresultadoarea.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtresultadoarea.Location = new System.Drawing.Point(137, 40);
+            this.txtresultadoarea.Name = "txtresultadoarea";
+            this.txtresultadoarea.Size = new System.Drawing.Size(0, 18);
+            this.txtresultadoarea.TabIndex = 0;
+            // 
             // panel5
             // 
             this.panel5.Controls.Add(this.pictureBox5);
@@ -294,9 +322,19 @@
             this.panel5.Size = new System.Drawing.Size(383, 119);
             this.panel5.TabIndex = 0;
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Area_de_figuras_geometricas.Properties.Resources.formula1;
+            this.pictureBox5.Location = new System.Drawing.Point(185, 24);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(171, 60);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 1;
+            this.pictureBox5.TabStop = false;
+            // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::Area_de_figuras_geometricas.Properties.Resources.octagono;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(14, 4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(138, 110);
@@ -383,43 +421,6 @@
             this.tabPage3.Text = "Trapecio";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::Area_de_figuras_geometricas.Properties.Resources.formula1;
-            this.pictureBox5.Location = new System.Drawing.Point(185, 24);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(171, 60);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.Peru;
-            this.panel6.Controls.Add(this.txtresultadoarea);
-            this.panel6.Location = new System.Drawing.Point(84, 259);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(320, 98);
-            this.panel6.TabIndex = 1;
-            // 
-            // txtresultadoarea
-            // 
-            this.txtresultadoarea.AutoSize = true;
-            this.txtresultadoarea.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtresultadoarea.Location = new System.Drawing.Point(137, 40);
-            this.txtresultadoarea.Name = "txtresultadoarea";
-            this.txtresultadoarea.Size = new System.Drawing.Size(0, 18);
-            this.txtresultadoarea.TabIndex = 0;
-            // 
-            // txtdetallearea
-            // 
-            this.txtdetallearea.AutoSize = true;
-            this.txtdetallearea.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtdetallearea.Location = new System.Drawing.Point(87, 234);
-            this.txtdetallearea.Name = "txtdetallearea";
-            this.txtdetallearea.Size = new System.Drawing.Size(0, 18);
-            this.txtdetallearea.TabIndex = 2;
-            // 
             // Geometria
             // 
             this.ClientSize = new System.Drawing.Size(920, 482);
@@ -442,14 +443,14 @@
             this.tabPage2.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
             this.panel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
             this.ResumeLayout(false);
 
         }
