@@ -30,33 +30,55 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.rb_lado = new System.Windows.Forms.RadioButton();
-            this.rb_radio = new System.Windows.Forms.RadioButton();
-            this.btn_calcular = new System.Windows.Forms.Button();
-            this.label_titile = new System.Windows.Forms.Label();
-            this.txt_valor = new System.Windows.Forms.TextBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.txt_detalle = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.txt_resultado = new System.Windows.Forms.Label();
+            this.txt_detalle = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btn_calcular = new System.Windows.Forms.Button();
+            this.rb_radio = new System.Windows.Forms.RadioButton();
+            this.rb_lado = new System.Windows.Forms.RadioButton();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.txt_valor = new System.Windows.Forms.TextBox();
+            this.label_titile = new System.Windows.Forms.Label();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btncalcular = new System.Windows.Forms.Button();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.txtaltura = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtbase = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.txtresultadoarea = new System.Windows.Forms.Label();
+            this.txtdetallearea = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.groupBox3.SuspendLayout();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -74,45 +96,13 @@
             // 
             this.tabPage1.Controls.Add(this.groupBox2);
             this.tabPage1.Controls.Add(this.groupBox1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(913, 443);
+            this.tabPage1.Size = new System.Drawing.Size(913, 446);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Octogono";
             this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(913, 443);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Romboide";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Location = new System.Drawing.Point(4, 25);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(913, 443);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Trapecio";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.btn_calcular);
-            this.groupBox1.Controls.Add(this.rb_radio);
-            this.groupBox1.Controls.Add(this.rb_lado);
-            this.groupBox1.Controls.Add(this.panel1);
-            this.groupBox1.Location = new System.Drawing.Point(0, 6);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(460, 438);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Ingreso de datos";
             // 
             // groupBox2
             // 
@@ -125,88 +115,7 @@
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Resultados";
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.txt_valor);
-            this.panel1.Controls.Add(this.label_titile);
-            this.panel1.Location = new System.Drawing.Point(34, 100);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(386, 100);
-            this.panel1.TabIndex = 0;
-            // 
-            // rb_lado
-            // 
-            this.rb_lado.AutoSize = true;
-            this.rb_lado.Checked = true;
-            this.rb_lado.Location = new System.Drawing.Point(42, 61);
-            this.rb_lado.Name = "rb_lado";
-            this.rb_lado.Size = new System.Drawing.Size(169, 21);
-            this.rb_lado.TabIndex = 1;
-            this.rb_lado.TabStop = true;
-            this.rb_lado.Text = "Calcular área por lado";
-            this.rb_lado.UseVisualStyleBackColor = true;
-            this.rb_lado.CheckedChanged += new System.EventHandler(this.rb_lado_CheckedChanged);
-            // 
-            // rb_radio
-            // 
-            this.rb_radio.AutoSize = true;
-            this.rb_radio.Location = new System.Drawing.Point(243, 61);
-            this.rb_radio.Name = "rb_radio";
-            this.rb_radio.Size = new System.Drawing.Size(179, 21);
-            this.rb_radio.TabIndex = 2;
-            this.rb_radio.Text = "Calcular área por Radio";
-            this.rb_radio.UseVisualStyleBackColor = true;
-            this.rb_radio.CheckedChanged += new System.EventHandler(this.rb_radio_CheckedChanged);
-            // 
-            // btn_calcular
-            // 
-            this.btn_calcular.Location = new System.Drawing.Point(34, 249);
-            this.btn_calcular.Name = "btn_calcular";
-            this.btn_calcular.Size = new System.Drawing.Size(386, 88);
-            this.btn_calcular.TabIndex = 3;
-            this.btn_calcular.Text = "Calcular";
-            this.btn_calcular.UseVisualStyleBackColor = true;
-            this.btn_calcular.Click += new System.EventHandler(this.btn_calcular_Click);
-            // 
-            // label_titile
-            // 
-            this.label_titile.AutoSize = true;
-            this.label_titile.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_titile.Location = new System.Drawing.Point(5, 21);
-            this.label_titile.Name = "label_titile";
-            this.label_titile.Size = new System.Drawing.Size(139, 25);
-            this.label_titile.TabIndex = 1;
-            this.label_titile.Text = "Ingrese el lado";
-            // 
-            // txt_valor
-            // 
-            this.txt_valor.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_valor.Location = new System.Drawing.Point(10, 57);
-            this.txt_valor.Name = "txt_valor";
-            this.txt_valor.Size = new System.Drawing.Size(356, 34);
-            this.txt_valor.TabIndex = 2;
-            this.txt_valor.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txt_valor.TextChanged += new System.EventHandler(this.txt_valor_TextChanged);
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.pictureBox3);
-            this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Location = new System.Drawing.Point(22, 32);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(373, 127);
-            this.panel2.TabIndex = 0;
-            // 
-            // txt_detalle
-            // 
-            this.txt_detalle.AutoSize = true;
-            this.txt_detalle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_detalle.Location = new System.Drawing.Point(65, 202);
-            this.txt_detalle.Name = "txt_detalle";
-            this.txt_detalle.Size = new System.Drawing.Size(0, 25);
-            this.txt_detalle.TabIndex = 1;
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // panel3
             // 
@@ -223,8 +132,27 @@
             this.txt_resultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_resultado.Location = new System.Drawing.Point(50, 30);
             this.txt_resultado.Name = "txt_resultado";
-            this.txt_resultado.Size = new System.Drawing.Size(0, 42);
+            this.txt_resultado.Size = new System.Drawing.Size(0, 36);
             this.txt_resultado.TabIndex = 0;
+            // 
+            // txt_detalle
+            // 
+            this.txt_detalle.AutoSize = true;
+            this.txt_detalle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_detalle.Location = new System.Drawing.Point(65, 202);
+            this.txt_detalle.Name = "txt_detalle";
+            this.txt_detalle.Size = new System.Drawing.Size(0, 20);
+            this.txt_detalle.TabIndex = 1;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.pictureBox3);
+            this.panel2.Controls.Add(this.pictureBox2);
+            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Location = new System.Drawing.Point(22, 32);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(373, 127);
+            this.panel2.TabIndex = 0;
             // 
             // pictureBox3
             // 
@@ -255,6 +183,240 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.btn_calcular);
+            this.groupBox1.Controls.Add(this.rb_radio);
+            this.groupBox1.Controls.Add(this.rb_lado);
+            this.groupBox1.Controls.Add(this.panel1);
+            this.groupBox1.Location = new System.Drawing.Point(0, 6);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(460, 438);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Ingreso de datos";
+            // 
+            // btn_calcular
+            // 
+            this.btn_calcular.Location = new System.Drawing.Point(34, 249);
+            this.btn_calcular.Name = "btn_calcular";
+            this.btn_calcular.Size = new System.Drawing.Size(386, 88);
+            this.btn_calcular.TabIndex = 3;
+            this.btn_calcular.Text = "Calcular";
+            this.btn_calcular.UseVisualStyleBackColor = true;
+            this.btn_calcular.Click += new System.EventHandler(this.btn_calcular_Click);
+            // 
+            // rb_radio
+            // 
+            this.rb_radio.AutoSize = true;
+            this.rb_radio.Location = new System.Drawing.Point(243, 61);
+            this.rb_radio.Name = "rb_radio";
+            this.rb_radio.Size = new System.Drawing.Size(136, 17);
+            this.rb_radio.TabIndex = 2;
+            this.rb_radio.Text = "Calcular área por Radio";
+            this.rb_radio.UseVisualStyleBackColor = true;
+            this.rb_radio.CheckedChanged += new System.EventHandler(this.rb_radio_CheckedChanged);
+            // 
+            // rb_lado
+            // 
+            this.rb_lado.AutoSize = true;
+            this.rb_lado.Checked = true;
+            this.rb_lado.Location = new System.Drawing.Point(42, 61);
+            this.rb_lado.Name = "rb_lado";
+            this.rb_lado.Size = new System.Drawing.Size(128, 17);
+            this.rb_lado.TabIndex = 1;
+            this.rb_lado.TabStop = true;
+            this.rb_lado.Text = "Calcular área por lado";
+            this.rb_lado.UseVisualStyleBackColor = true;
+            this.rb_lado.CheckedChanged += new System.EventHandler(this.rb_lado_CheckedChanged);
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.txt_valor);
+            this.panel1.Controls.Add(this.label_titile);
+            this.panel1.Location = new System.Drawing.Point(34, 100);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(386, 100);
+            this.panel1.TabIndex = 0;
+            // 
+            // txt_valor
+            // 
+            this.txt_valor.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_valor.Location = new System.Drawing.Point(10, 57);
+            this.txt_valor.Name = "txt_valor";
+            this.txt_valor.Size = new System.Drawing.Size(356, 29);
+            this.txt_valor.TabIndex = 2;
+            this.txt_valor.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_valor.TextChanged += new System.EventHandler(this.txt_valor_TextChanged);
+            // 
+            // label_titile
+            // 
+            this.label_titile.AutoSize = true;
+            this.label_titile.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_titile.Location = new System.Drawing.Point(5, 21);
+            this.label_titile.Name = "label_titile";
+            this.label_titile.Size = new System.Drawing.Size(113, 20);
+            this.label_titile.TabIndex = 1;
+            this.label_titile.Text = "Ingrese el lado";
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.groupBox4);
+            this.tabPage2.Controls.Add(this.groupBox3);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(913, 446);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Romboide";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.txtdetallearea);
+            this.groupBox4.Controls.Add(this.panel6);
+            this.groupBox4.Controls.Add(this.panel5);
+            this.groupBox4.Location = new System.Drawing.Point(461, 6);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(449, 437);
+            this.groupBox4.TabIndex = 1;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Resultados";
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.pictureBox5);
+            this.panel5.Controls.Add(this.pictureBox4);
+            this.panel5.Location = new System.Drawing.Point(39, 39);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(383, 119);
+            this.panel5.TabIndex = 0;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Area_de_figuras_geometricas.Properties.Resources.octagono;
+            this.pictureBox4.Location = new System.Drawing.Point(14, 4);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(138, 110);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.btncalcular);
+            this.groupBox3.Controls.Add(this.panel4);
+            this.groupBox3.Location = new System.Drawing.Point(3, 6);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(452, 434);
+            this.groupBox3.TabIndex = 0;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Ingreso de Datos";
+            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
+            // 
+            // btncalcular
+            // 
+            this.btncalcular.AccessibleName = "";
+            this.btncalcular.Location = new System.Drawing.Point(46, 278);
+            this.btncalcular.Name = "btncalcular";
+            this.btncalcular.Size = new System.Drawing.Size(362, 79);
+            this.btncalcular.TabIndex = 1;
+            this.btncalcular.Text = "Calcular";
+            this.btncalcular.UseVisualStyleBackColor = true;
+            this.btncalcular.Click += new System.EventHandler(this.btncalcular_Click);
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.txtaltura);
+            this.panel4.Controls.Add(this.label2);
+            this.panel4.Controls.Add(this.txtbase);
+            this.panel4.Controls.Add(this.label1);
+            this.panel4.Location = new System.Drawing.Point(25, 43);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(408, 170);
+            this.panel4.TabIndex = 0;
+            // 
+            // txtaltura
+            // 
+            this.txtaltura.Location = new System.Drawing.Point(16, 124);
+            this.txtaltura.Name = "txtaltura";
+            this.txtaltura.Size = new System.Drawing.Size(367, 20);
+            this.txtaltura.TabIndex = 3;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(17, 89);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(113, 20);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Ingrese Altura ";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // txtbase
+            // 
+            this.txtbase.Location = new System.Drawing.Point(16, 52);
+            this.txtbase.Name = "txtbase";
+            this.txtbase.Size = new System.Drawing.Size(367, 20);
+            this.txtbase.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(108, 20);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Ingrese Base ";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(913, 446);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Trapecio";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Area_de_figuras_geometricas.Properties.Resources.formula1;
+            this.pictureBox5.Location = new System.Drawing.Point(185, 24);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(171, 60);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 1;
+            this.pictureBox5.TabStop = false;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.Peru;
+            this.panel6.Controls.Add(this.txtresultadoarea);
+            this.panel6.Location = new System.Drawing.Point(84, 259);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(320, 98);
+            this.panel6.TabIndex = 1;
+            // 
+            // txtresultadoarea
+            // 
+            this.txtresultadoarea.AutoSize = true;
+            this.txtresultadoarea.Location = new System.Drawing.Point(137, 40);
+            this.txtresultadoarea.Name = "txtresultadoarea";
+            this.txtresultadoarea.Size = new System.Drawing.Size(0, 13);
+            this.txtresultadoarea.TabIndex = 0;
+            // 
+            // txtdetallearea
+            // 
+            this.txtdetallearea.AutoSize = true;
+            this.txtdetallearea.Location = new System.Drawing.Point(221, 234);
+            this.txtdetallearea.Name = "txtdetallearea";
+            this.txtdetallearea.Size = new System.Drawing.Size(0, 13);
+            this.txtdetallearea.TabIndex = 2;
             // 
             // Geometria
             // 
@@ -263,18 +425,29 @@
             this.Name = "Geometria";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.groupBox3.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -300,5 +473,19 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtbase;
+        private System.Windows.Forms.Button btncalcular;
+        private System.Windows.Forms.TextBox txtaltura;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Label txtresultadoarea;
+        private System.Windows.Forms.Label txtdetallearea;
     }
 }

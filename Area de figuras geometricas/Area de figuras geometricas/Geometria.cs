@@ -58,5 +58,49 @@ namespace Area_de_figuras_geometricas
                 txt_valor.Text = "";
             }
         }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btncalcular_Click(object sender, EventArgs e)
+        {
+            String valor1 = txtbase.Text;
+            String valor2 = txtaltura.Text;
+
+            if (valor1.Equals("")|| valor2.Equals(""))
+            {
+                MessageBox.Show("ingrese un valor correcto");
+            }
+            else
+            {
+
+                Romboide oc = new Romboide("Romboide", Convert.ToDouble(valor1), Convert.ToDouble(valor2));
+                txtdetallearea.Text = oc.ToString();
+                txtresultadoarea.Text = ""+oc.CalcularArea();
+
+            }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
