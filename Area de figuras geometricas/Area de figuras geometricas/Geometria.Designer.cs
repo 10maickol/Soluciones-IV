@@ -521,21 +521,21 @@
             // 
             // label_desc
             // 
-            this.label_desc.AutoSize = true;
-            this.label_desc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_desc.Location = new System.Drawing.Point(71, 202);
-            this.label_desc.Name = "label_desc";
-            this.label_desc.Size = new System.Drawing.Size(0, 25);
-            this.label_desc.TabIndex = 3;
+            this.txtresultadoarea.AutoSize = true;
+            this.txtresultadoarea.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtresultadoarea.Location = new System.Drawing.Point(137, 40);
+            this.txtresultadoarea.Name = "txtresultadoarea";
+            this.txtresultadoarea.Size = new System.Drawing.Size(0, 18);
+            this.txtresultadoarea.TabIndex = 0;
             // 
             // txt_result_tra
             // 
-            this.txt_result_tra.AutoSize = true;
-            this.txt_result_tra.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_result_tra.Location = new System.Drawing.Point(15, 38);
-            this.txt_result_tra.Name = "txt_result_tra";
-            this.txt_result_tra.Size = new System.Drawing.Size(0, 26);
-            this.txt_result_tra.TabIndex = 1;
+            this.txtdetallearea.AutoSize = true;
+            this.txtdetallearea.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtdetallearea.Location = new System.Drawing.Point(87, 234);
+            this.txtdetallearea.Name = "txtdetallearea";
+            this.txtdetallearea.Size = new System.Drawing.Size(0, 18);
+            this.txtdetallearea.TabIndex = 2;
             // 
             // Geometria
             // 
