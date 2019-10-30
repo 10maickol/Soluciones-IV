@@ -63,5 +63,24 @@ namespace Area_de_figuras_geometricas
         {
 
         }
+
+        private void btncalcular_Click(object sender, EventArgs e)
+        {
+            String valor1 = txtbase.Text;
+            String valor2 = txtaltura.Text;
+
+            if (valor1.Equals("") || valor2.Equals(""))
+            {
+                MessageBox.Show("Ingrese un valor correcto");
+            }
+            else
+            {
+
+                Romboide oc = new Romboide("Romboide", Convert.ToDouble(valor1), Convert.ToDouble(valor2));
+                txtdetallearea.Text = oc.ToString();
+                txtresultadoarea.Text = "" + oc.CalcularArea() + " m^2";
+
+            }
+        }
     }
 }
