@@ -63,6 +63,16 @@ namespace Area_de_figuras_geometricas.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap formula_trapecio {
+            get {
+                object obj = ResourceManager.GetObject("formula_trapecio", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap formula1 {
             get {
                 object obj = ResourceManager.GetObject("formula1", resourceCulture);
@@ -86,6 +96,16 @@ namespace Area_de_figuras_geometricas.Properties {
         internal static System.Drawing.Bitmap octagono {
             get {
                 object obj = ResourceManager.GetObject("octagono", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap trapecio {
+            get {
+                object obj = ResourceManager.GetObject("trapecio", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -58,5 +58,65 @@ namespace Area_de_figuras_geometricas
                 txt_valor.Text = "";
             }
         }
+
+        private void txt_h_TextChanged(object sender, EventArgs e)
+        {
+
+            try
+            {
+                double n = Convert.ToDouble(txt_h.Text);
+            }
+            catch (Exception)
+            {
+
+                txt_h.Text = "";
+            }
+        }
+
+        private void txt_a_TextChanged(object sender, EventArgs e)
+        {
+
+            try
+            {
+                double n = Convert.ToDouble(txt_a.Text);
+            }
+            catch (Exception)
+            {
+
+                txt_a.Text = "";
+            }
+        }
+
+        private void txt_b_TextChanged(object sender, EventArgs e)
+        {
+
+            try
+            {
+                double n = Convert.ToDouble(txt_b.Text);
+            }
+            catch (Exception)
+            {
+
+                txt_b.Text = "";
+            }
+        }
+
+        private void btn_calcular_trapecio_Click(object sender, EventArgs e)
+        {
+            String h = txt_h.Text;
+            String a = txt_a.Text;
+            String b = txt_b.Text;
+            if (!h.Equals("")&& !a.Equals("")&& !b.Equals(""))
+            {
+                Trapecio tra = new Trapecio("Trapecio",Convert.ToDouble(h),Convert.ToDouble(a),Convert.ToDouble(b));
+                label_desc.Text = tra.ToString();
+                txt_result_tra.Text = Math.Round(tra.CalcularArea(), 3) + " m^2";
+            }
+            else
+            {
+                MessageBox.Show("Ingrese valores correctamente");
+            }
+            
+        }
     }
 }

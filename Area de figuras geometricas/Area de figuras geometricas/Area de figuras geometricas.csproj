@@ -56,6 +56,7 @@
     <Compile Include="Octogono.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Trapecio.cs" />
     <EmbeddedResource Include="Geometria.resx">
       <DependentUpon>Geometria.cs</DependentUpon>
     </EmbeddedResource>
@@ -90,6 +91,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\formula2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trapecio.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formula_trapecio.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
